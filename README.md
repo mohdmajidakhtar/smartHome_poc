@@ -51,4 +51,4 @@ node receiveThermostatData.js
 
 ## Example Usage
 
-//GIF HERE
+![poc_smartHome](https://user-images.githubusercontent.com/33374518/115261951-b4a3f900-a151-11eb-9a8c-4204280d8767.gif)
