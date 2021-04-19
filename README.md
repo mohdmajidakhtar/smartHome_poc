@@ -10,7 +10,7 @@ The methods to run this in order to try and simplify its usage are:
 
 ## Installing
 
-**STEP 1**: Install three packages using the following commands:
+**STEP 1**: Install three packages using the following commands in the root folder:
 
 ```shell
 npm install @iota/mam.js
