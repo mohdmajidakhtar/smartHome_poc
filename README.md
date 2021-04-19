@@ -30,7 +30,7 @@ STEP 2: Now go to the directory [./poc/]. Then run the following command
 node humanPresence.js [value]
 ```
 
-This value can be 'true' and 'false' representing humanPresence detected by PIR sensor data.
+This value can be 'true' and 'false' representing humanPresence detected by PIR sensor data and then it will create a json file 'channelState.json'.
 
 STEP 3: Open three respective terminal for each devices ([./poc/smartLedLight/](./poc/smartLedLight/receivePIRdata.js), [./poc/thermostat/](./poc/thermostat/receivePIRdata.js), [./poc/airConditioner/](./poc/airConditioner/receiveThermostatData.js)) to see the effect. 
 
