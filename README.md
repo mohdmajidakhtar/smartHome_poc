@@ -4,13 +4,13 @@
 
 Implementation of Smart Home Application using Distributed Ledger Technology (DLT) IOTA in written in pure JavaScript using IOTA core libraries.
 
-> Note: Require NodeJS and NPM Installed on machines
+> Note: Require *NodeJS* and *NPM* Installed on machines
 
 The methods to run this in order to try and simplify its usage are:
 
 ## Installing
 
-STEP 1: Install three packages using the following commands:
+**STEP 1**: Install three packages using the following commands:
 
 ```shell
 npm install @iota/mam.js
@@ -24,15 +24,15 @@ npm install moment
 npm install iota.lib.js
 ```
 
-STEP 2: Now go to the directory [./poc/]. Then run the following command 
+**STEP 2**: Now go to the directory [./poc/]. Then run the following command 
 
 ```shell
 node humanPresence.js [value]
 ```
 
-This value can be 'true' and 'false' representing humanPresence detected by PIR sensor data and then it will create a json file 'channelState.json'.
+This value can be 'true' and 'false' representing humanPresence detected by PIR sensor data and then it will create a json file *channelState.json'*.
 
-STEP 3: Open three respective terminal for each devices ([./poc/smartLedLight/](./poc/smartLedLight/receivePIRdata.js), [./poc/thermostat/](./poc/thermostat/receivePIRdata.js), [./poc/airConditioner/](./poc/airConditioner/receiveThermostatData.js)) to see the effect. 
+**STEP 3**: Open three respective terminal for each devices ([./poc/smartLedLight/](./poc/smartLedLight/receivePIRdata.js), [./poc/thermostat/](./poc/thermostat/receivePIRdata.js), [./poc/airConditioner/](./poc/airConditioner/receiveThermostatData.js)) to see the effect. 
 
 (i) write following command in Smart Led Light Terminal:
 ```shell
